@@ -1,3 +1,9 @@
+/* 네비게이션 바 */
+.navbar {
+	font-weight: 500;
+}
+
+/* 사이트 소개 */
 .explain-box {
 	color: white;
 	background-color: black;
@@ -7,4 +13,26 @@
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+}
+
+/* 컨텐츠 카드 */
+.main-content {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.main-content-section-1,
+.main-content-section-2,
+.main-content-section-3 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+/* 개발자 정보 */
+.developer-info {
+	background-color: blanchedalmond;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 100px;
+	padding-right: 100px;
 }
