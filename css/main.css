@@ -1,3 +1,23 @@
+@font-face {
+	font-family: "CustomFont";
+	src: url("/font/NanumSquareNeo-Variable.ttf") format("truetype");
+}
+
+body {
+	font-family: "CustomFont";
+}
+
+h5 {
+	font-size: 18px;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+p {
+	font-size: 14px;
+}
 /* 네비게이션 바 */
 .navbar {
 	font-weight: 500;
@@ -6,7 +26,9 @@
 /* 사이트 소개 */
 .explain-box {
 	color: white;
-	background-color: black;
+	background-image: url(/img/sebastian-svenson-LpbyDENbQQg-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
 	height: 300px;
 	display: flex;
 	flex-direction: column;
@@ -30,7 +52,7 @@
 
 /* 개발자 정보 */
 .developer-info {
-	background-color: blanchedalmond;
+	background-color: lightgray;
 	padding-top: 8px;
 	padding-bottom: 8px;
 	padding-left: 100px;
