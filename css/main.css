@@ -9,6 +9,9 @@ body {
 
 h5 {
 	font-size: 18px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-weight: bold;
 }
 
 h6 {
@@ -18,9 +21,20 @@ h6 {
 p {
 	font-size: 14px;
 }
+
 /* 네비게이션 바 */
+nav {
+	height: 70px;
+}
+
 .navbar {
 	font-weight: 500;
+}
+.navbar-brand {
+	font-weight: bold;
+}
+.navbar-nav {
+	padding-left: 30px;
 }
 
 /* 사이트 소개 */
@@ -35,6 +49,7 @@ p {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	padding-top: 50px;
 }
 
 /* 컨텐츠 카드 */
@@ -52,7 +67,7 @@ p {
 
 /* 개발자 정보 */
 .developer-info {
-	background-color: lightgray;
+	background-color: #f9f9fa;
 	padding-top: 8px;
 	padding-bottom: 8px;
 	padding-left: 100px;
