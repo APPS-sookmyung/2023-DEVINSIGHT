@@ -12,8 +12,9 @@ body {
 
 h5 {
 	font-size: 18px;
-	padding-top: 10px;
-	padding-bottom: 5px;
+	padding: 10px 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 	font-weight: bold;
 }
 
@@ -43,7 +44,9 @@ nav {
 	margin-bottom: 0;
 	list-style: none;
 }
-
+.navbar-brand {
+	font-size: 24px; /* 로고사이즈 */
+}
 .navbar {
 	font-weight: 500;
 }
@@ -53,27 +56,43 @@ nav {
 .navbar-nav {
 	padding-left: 30px;
 }
+.nav-item a {
+	font-size: 18px;
+}
 
 /* 검색 폼 */
 .search {
 	position: relative;
+	display: inline-block;
+}
+.search input {
 	width: 250px;
+	border: 1px solid #bbb;
+	border-radius: 8px;
+	padding: 10px 10px;
+	font-size: 14px;
+	padding-right: 30px; /* 여백 확보를 위해 오른쪽 패딩 추가 */
+}
+.search input:focus {
+	outline: none; /* 포커스시 기본 아웃라인 제거 */
+	border: 2px solid gray; /* 포커스시 테두리 색상 변경 */
+}
+.search img {
+	position: absolute;
+	width: 17px;
+	top: 50%;
+	right: 10px; /* 조정 가능한 값 */
+	transform: translateY(-50%);
+	cursor: pointer;
+	margin-right: 3px;
 }
 
 input {
 	width: 100%;
 	border: 1px solid #bbb;
 	border-radius: 8px;
-	padding: 10px 12px;
+	padding: 10px 10px;
 	font-size: 14px;
-}
-
-.search img {
-	position: absolute;
-	width: 17px;
-	top: 13px;
-	right: 12px;
-	margin: 0;
 }
 
 /* 사이트 소개 */
@@ -96,6 +115,19 @@ input {
 	margin-left: 100px;
 	margin-right: 100px;
 } */
+
+.main-content-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.main-content-header a {
+	color: gray;
+	font-size: 14px;
+	text-decoration: none;
+	font-weight: 500;
+}
 
 .main-content-section-1,
 .main-content-section-2,
