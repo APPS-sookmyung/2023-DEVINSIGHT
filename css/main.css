@@ -37,7 +37,7 @@ nav {
 	--bs-nav-link-padding-y: 0.5rem;
 	--bs-nav-link-font-weight: ;
 	--bs-nav-link-color: #7db8c3;
-	--bs-nav-link-hover-color: #edb091;
+	--bs-nav-link-hover-color: #272823;
 	/* --bs-nav-link-disabled-color: var(--bs-secondary-color); */
 	display: flex;
 	flex-wrap: wrap;
@@ -47,6 +47,9 @@ nav {
 }
 .navbar-brand {
 	font-size: 24px; /* 로고사이즈 */
+	color: #272823;
+	padding: 0;
+	margin: 0;
 }
 .navbar {
 	font-weight: 500;
@@ -59,6 +62,10 @@ nav {
 }
 .nav-item a {
 	font-size: 18px;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+	color: #272823;
 }
 
 /* 검색 폼 */
