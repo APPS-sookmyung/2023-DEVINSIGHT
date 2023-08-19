@@ -46,16 +46,15 @@ nav {
 	list-style: none;
 }
 .navbar-brand {
-	font-size: 24px; /* 로고사이즈 */
+	font-size: 28px; /* 로고사이즈 */
 	color: #272823;
+	font-weight: bold;
+	font-family: "Space Grotesk", sans-serif;
 	padding: 0;
 	margin: 0;
 }
 .navbar {
 	font-weight: 500;
-}
-.navbar-brand {
-	font-weight: bold;
 }
 .navbar-nav {
 	padding-left: 30px;
