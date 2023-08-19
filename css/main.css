@@ -139,6 +139,7 @@ input {
 
 .main-content-header {
 	display: flex;
+	position: relative;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -158,24 +159,24 @@ input {
 }
 
 /* new 버튼 */
-button {
-	margin-bottom: 20px;
-}
 
 .main-tab {
-	position: relative;
 	border: 1px solid lightgray;
 	min-width: 120px;
 	min-height: 35px;
 	background-color: white;
 	border-radius: 1000px;
 	color: #272823;
-	/* cursor: pointer; */
 	font-weight: 700;
 	transition: 0.3s;
 	display: inline-block;
 	border-radius: 15px;
 	text-decoration: none;
+	margin: 15px 0px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
 }
 
 /* 개발자 정보 */
