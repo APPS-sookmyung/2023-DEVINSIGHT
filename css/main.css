@@ -1,13 +1,9 @@
-@font-face {
-	font-family: "SeoulNamsanM";
-	src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SeoulNamsanM.woff")
-		format("woff");
-	font-weight: normal;
-	font-style: normal;
-}
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
 
+* {
+	font-family: "Spoqa Han Sans Neo", "sans-serif";
+}
 body {
-	font-family: "CustomFont";
 	margin-bottom: 100px;
 }
 
@@ -49,7 +45,6 @@ nav {
 	font-size: 28px; /* 로고사이즈 */
 	color: #272823;
 	font-weight: bold;
-	font-family: "Space Grotesk", sans-serif;
 	padding: 0;
 	margin: 0;
 }
