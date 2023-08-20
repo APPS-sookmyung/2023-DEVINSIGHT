@@ -28,6 +28,10 @@ p {
 	font-size: 14px;
 }
 
+
+
+
+
 /* 네비게이션 바 */
 nav {
 	height: 70px;
@@ -163,8 +167,11 @@ input {
 .main-content-section-1,
 .main-content-section-2,
 .main-content-section-3 {
-	margin-top: 50px;
 	margin-bottom: 50px;
+}
+
+.main-content-section-1{
+	margin-top: 50px;
 }
 /* .card h-100 {
 	display: block;
