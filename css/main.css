@@ -1,5 +1,10 @@
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
 
+:root {
+	--bs-nav-link-color: #7db8c3;
+	--bs-nav-link-hover-color: #272823;
+}
+
 * {
 	font-family: "Spoqa Han Sans Neo", "sans-serif";
 }
@@ -29,12 +34,6 @@ nav {
 }
 
 .nav {
-	--bs-nav-link-padding-x: 1rem;
-	--bs-nav-link-padding-y: 0.5rem;
-	--bs-nav-link-font-weight: ;
-	--bs-nav-link-color: #7db8c3;
-	--bs-nav-link-hover-color: #272823;
-	/* --bs-nav-link-disabled-color: var(--bs-secondary-color); */
 	display: flex;
 	flex-wrap: wrap;
 	padding-left: 0;
@@ -59,7 +58,18 @@ nav {
 }
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
-	color: #272823;
+	--bs-navbar-active-color:#272823
+	color: var(--bs-nav-link-hover-color)
+}
+
+.navbar-nav .nav-link:hover {
+	--bs-nav-link-hover-color: #272823;
+	color: var(--bs-nav-link-hover-color);
+}
+
+.nav-link {
+	--bs-nav-link-color: #7db8c3;
+	color: var(--bs-nav-link-color);
 }
 
 #navbarNavAltMarkup {
@@ -125,11 +135,14 @@ input {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	padding-top: 80px;
 }
 
 .row.explain-container {
 	margin-top: 70px;
+}
+
+.explain-content{
+	margin: 0;
 }
 
 /* 컨텐츠 카드 */
