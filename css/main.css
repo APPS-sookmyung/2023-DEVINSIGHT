@@ -62,6 +62,10 @@ nav {
 	color: #272823;
 }
 
+#navbarNavAltMarkup {
+	margin-left: 20px;
+}
+
 /* 검색 폼 */
 .search {
 	position: relative;
