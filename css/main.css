@@ -114,7 +114,6 @@ input {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	padding-top: 50px;
 }
 .explain-box-video {
 	color: #f9f9fa;
@@ -130,12 +129,11 @@ input {
 	padding-top: 80px;
 }
 
-/* 컨텐츠 카드 */
-/* .card h-100 {
-	display: block;
-	margin: 100px 0px 100px 0px;
-} */
+.row.explain-container {
+	margin-top: 70px;
+}
 
+/* 컨텐츠 카드 */
 .main-content-header {
 	display: flex;
 	position: relative;
@@ -156,9 +154,12 @@ input {
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
+/* .card h-100 {
+	display: block;
+	margin: 100px 0px 100px 0px;
+} */
 
 /* new 버튼 */
-
 .main-tab {
 	border: 1px solid lightgray;
 	min-width: 120px;
