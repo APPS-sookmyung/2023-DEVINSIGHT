@@ -1,22 +1,23 @@
-{
-	"devSeminarList": [
-		{
-			"name": "인프콘",
-			"url": "https://www.inflearn.com/conf/infcon-2023",
-			"title": "INFCON 2023",
-			"description": "인프런이 만드는 IT인의 축제, 인프콘으로 초대합니다. 인프콘과 함께 배우고 나누고 성장하세요. 다양한 발표 세션, 핸즈온, 네트워킹까지 만나보세요."
-		},
-		{
-			"name": "너디너리",
-			"url": "https://event-us.kr/neordinary/event/68943",
-			"title": "1st NE(O)RDINARY DemoDAY",
-			"description": "컴공선배가 주관하고 작업자들의 일하는 문화를 바꾸는 브랜드 ‘너디너리’에서 주최하는 IT작업자를 위한 축제, NE(O)RDINARY DEMODAY에 여러분들을 초대합니다"
-		},
-		{
-			"name": "FEConf Korea",
-			"url": "https://2023.feconf.kr/",
-			"title": "FECONF 2023 (프론트엔드 개발 컨퍼런스)",
-			"description": "FEConf는 프론트엔드를 개발하며 마주했던 치열한 고민과 깊은 인사이트를 공유하고 함께 성장하는 국내 최고의 프론트엔드 개발 컨퍼런스입니다."
-		}
-	]
-}
+[
+	{
+		"name": "인프콘",
+		"linkUrl": "https://www.inflearn.com/conf/infcon-2023",
+		"imageUrl": "https://cdn.inflearn.com/infcon/infcon-2023/infcon-teaser-og.png",
+		"title": "INFCON 2023",
+		"description": "인프런이 만드는 IT인의 축제, 인프콘으로 초대합니다. 인프콘과 함께 배우고 나누고 성장하세요. 다양한 발표 세션, 핸즈온, 네트워킹까지 만나보세요."
+	},
+	{
+		"name": "너디너리",
+		"linkUrl": "https://event-us.kr/neordinary/event/68943",
+		"imageUrl": "https://eventusstorage.blob.core.windows.net/evs/Image/neordinary/68943/ProjectInfo/Cover/c82d1a96a5f94771a01821be1c651bb0.png",
+		"title": "1st NE(O)RDINARY DemoDAY",
+		"description": "컴공선배가 주관하고 작업자들의 일하는 문화를 바꾸는 브랜드 ‘너디너리’에서 주최하는 IT작업자를 위한 축제, NE(O)RDINARY DEMODAY에 여러분들을 초대합니다"
+	},
+	{
+		"name": "FEConf Korea",
+		"linkUrl": "https://2023.feconf.kr/",
+		"imageUrl": "https://2023.feconf.kr/images/preview/og.png",
+		"title": "FECONF 2023 (프론트엔드 개발 컨퍼런스)",
+		"description": "FEConf는 프론트엔드를 개발하며 마주했던 치열한 고민과 깊은 인사이트를 공유하고 함께 성장하는 국내 최고의 프론트엔드 개발 컨퍼런스입니다."
+	}
+]

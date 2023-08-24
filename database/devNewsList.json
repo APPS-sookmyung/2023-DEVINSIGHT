@@ -1,22 +1,23 @@
-{
-	"devNewsList": [
-		{
-			"name": "우아한 기술 블로그",
-			"url": "https://techblog.woowahan.com/13249/",
-			"title": "현실 타협은 후퇴다! 안 되는 일을 되게 만드는 PM이란?",
-			"description": "셀러시스템팀 PM(Product Manager)의 경험을 바탕으로 변화하는 환경에서 유연하게 대처하는 데 도움이 될만한 팁이 궁금하다면, 바로 여기로!"
-		},
-		{
-			"name": "토스테크",
-			"url": "https://toss.tech/article/uss-card",
-			"title": "30대 디자이너가 10대 전용 카드를 만든다면?",
-			"description": "어린이와 청소년을 위한 전용 카드인 토스 유스카드 (USS)를 기획하고 디자인하는 과정에서 경험한 내용과 고민했던 부분들을 공유합니다."
-		},
-		{
-			"name": "토스테크",
-			"url": "https://toss.tech/article/slash23-iOS",
-			"title": "레고처럼 조립하는 토스 앱",
-			"description": "많은 서비스가 생겨나면서, 모듈 간의 의존성이 폭발적으로 늘어나는 문제를 보완한 방법은?"
-		}
-	]
-}
+[
+	{
+		"name": "우아한 기술 블로그",
+		"linkUrl": "https://techblog.woowahan.com/13249/",
+		"imageUrl": "https://techblog.woowahan.com/wp-content/uploads/2023/08/%E1%84%89%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%B3%E1%84%89%E1%85%A5%E1%84%87%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%B5%E1%86%B7-%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%8B%E1%85%A5%E1%86%B8%E1%84%87%E1%85%A5%E1%86%B7%E1%84%8B%E1%85%B12-1568x841.png",
+		"title": "현실 타협은 후퇴다! 안 되는 일을 되게 만드는 PM이란?",
+		"description": "셀러시스템팀 PM(Product Manager)의 경험을 바탕으로 변화하는 환경에서 유연하게 대처하는 데 도움이 될만한 팁이 궁금하다면, 바로 여기로!"
+	},
+	{
+		"name": "토스테크",
+		"linkUrl": "https://toss.tech/article/uss-card",
+		"imageUrl": "https://static.toss-internal.com/ipd-tcs/toss_core/live/e6e776d0-1d3f-42c8-a230-9fa20eff55cd",
+		"title": "30대 디자이너가 10대 전용 카드를 만든다면?",
+		"description": "어린이와 청소년을 위한 전용 카드인 토스 유스카드 (USS)를 기획하고 디자인하는 과정에서 경험한 내용과 고민했던 부분들을 공유합니다."
+	},
+	{
+		"name": "토스테크",
+		"linkUrl": "https://toss.tech/article/slash23-iOS",
+		"imageUrl": "https://static.toss.im/assets/toss-tech/slash_juneseokbeomgun_thumb.png",
+		"title": "레고처럼 조립하는 토스 앱",
+		"description": "많은 서비스가 생겨나면서, 모듈 간의 의존성이 폭발적으로 늘어나는 문제를 보완한 방법은?"
+	}
+]
