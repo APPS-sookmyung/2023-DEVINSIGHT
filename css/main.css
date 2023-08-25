@@ -21,11 +21,15 @@ h5 {
 }
 
 h6 {
-	font-size: 16px;
+	font-size: 18px;
 }
 
 p {
 	font-size: 14px;
+}
+
+section {
+	margin: 50px 0px;
 }
 
 /* 네비게이션 바 */
@@ -141,6 +145,16 @@ input {
 	margin-top: 70px;
 }
 
+.row.explain-container a {
+	margin: 0px 12px;
+	padding: 0px;
+
+}
+
+.explain-title {
+	margin-bottom: 20px;
+}
+
 .explain-content{
 	margin: 0;
 }
@@ -151,6 +165,7 @@ input {
 	position: relative;
 	justify-content: space-between;
 	align-items: center;
+	margin: 20px 0px;
 }
 
 .main-content-header a {
@@ -158,16 +173,6 @@ input {
 	font-size: 14px;
 	text-decoration: none;
 	font-weight: 500;
-}
-
-.main-content-section-1,
-.main-content-section-2,
-.main-content-section-3 {
-	margin-bottom: 50px;
-}
-
-.main-content-section-1{
-	margin-top: 50px;
 }
 
 .dev-news-section a {
