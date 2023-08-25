@@ -144,7 +144,6 @@ input {
 .row.explain-container {
 	margin-top: 70px;
 }
-
 .row.explain-container a {
 	margin: 0px 12px;
 	padding: 0px;
@@ -165,14 +164,16 @@ input {
 	position: relative;
 	justify-content: space-between;
 	align-items: center;
-	margin: 20px 0px;
+	margin: 10px 0px;
 }
-
 .main-content-header a {
 	color: gray;
 	font-size: 14px;
 	text-decoration: none;
 	font-weight: 500;
+}
+.main-content-header h5 {
+	margin: 0px;
 }
 
 .dev-news-section a {
