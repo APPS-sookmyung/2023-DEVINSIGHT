@@ -13,7 +13,7 @@ function createCard({ name, imageUrl, linkUrl, title, description }) {
 	const cardBody = document.createElement("div");
 	cardBody.className = "card-body";
 
-	const cardTitle = document.createElement("h6");
+	const cardTitle = document.createElement("h5");
 	cardTitle.className = "card-title";
 	cardTitle.textContent = `[${name}] ${title}`;
 
@@ -31,7 +31,7 @@ function createCard({ name, imageUrl, linkUrl, title, description }) {
 }
 
 function main() {
-	fetch("../database/devNewsList.json")
+	fetch("../database/devVideoList.json")
 		.then((response) => response.json())
 		.then((devNewsList) => {
 			console.log(devNewsList);

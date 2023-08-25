@@ -162,7 +162,7 @@ input {
 	color: #7db8c3;
 	font-size: 15px;
 	text-decoration: none;
-	font-weight: 500;
+	font-weight: 800;
 }
 .main-content-header h3 {
 	margin: 0px;
@@ -170,6 +170,12 @@ input {
 	font-size: 25px;
 	padding: 10px;
 	margin: 0px 0px;
+}
+
+.card.h-100:hover{
+	width: 400px;
+  margin: 0px auto;
+  overflow: hidden
 }
 
 .dev-news-section a {
