@@ -3,21 +3,18 @@
 		"name": "우아한테크",
 		"linkUrl": "https://youtu.be/v63xqVXwSlo?si=HcKxUOJVxYUfiH12",
 		"imageUrl": "https://i.ytimg.com/vi/v63xqVXwSlo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDlEKtgBriSZQKdZmo-K_3g0QOGgQ",
-		"title": "[10분 테코톡] 로지의 AWS 사용팁",
-		"description": "'10분 테코톡'이란  우아한테크코스 과정을 진행하며 크루(수강생)들이 동료들과 학습한 내용을 공유하고 이야기하는 시간입니다. "
+		"title": "[10분 테코톡] 로지의 AWS 사용팁"
 	},
 	{
 		"name": "우아한테크",
 		"linkUrl": "https://youtu.be/IRj9vKBy9CA?feature=shared",
 		"imageUrl": "https://i.ytimg.com/vi/IRj9vKBy9CA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDXWkQKQJcoRlyjCMsddHqMF2yP_Q",
-		"title": "[10분 테코톡] 에이든, 황펭의 프론트엔드 성능 측정",
-		"description": "'10분 테코톡'이란  우아한테크코스 과정을 진행하며 크루(수강생)들이 동료들과 학습한 내용을 공유하고 이야기하는 시간입니다. "
+		"title": "[10분 테코톡] 에이든, 황펭의 프론트엔드 성능 측정"
 	},
 	{
 		"name": "당근테크",
 		"linkUrl": "https://youtu.be/3iLTBBC9ZX4?feature=shared",
 		"imageUrl": "https://i.ytimg.com/vi/3iLTBBC9ZX4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCYecSZQODFq2o9VLqBqBry0bT_EQ",
-		"title": "당근마켓 서비스를 모니터링하는 방법 | 당근 SRE 밋업 3회",
-		"description": "당근마켓 성장과 함께 쌓아온 안정적인 인프라 구축과 운영 노하우를 당근마켓 SRE 팀에서 공유합니다. 이번 SRE 밋업에서는 사내 개발자 플랫폼 개발과 관련된 다양한 세션을 준비했습니다."
+		"title": "당근마켓 서비스를 모니터링하는 방법 | 당근 SRE 밋업 3회"
 	}
 ]

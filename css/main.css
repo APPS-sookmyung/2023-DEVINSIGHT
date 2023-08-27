@@ -172,19 +172,22 @@ input {
 	margin: 0px 0px;
 }
 
-.card-img-top {
-	object-fit:cover;     
-  transform:scale(1.0);        
-  transition: transform .5s; 
+.card-img-wrapper {
 	overflow: hidden;
+}
+
+.card-img-top {
+	object-fit: cover;     
+  transform: scale(1.0);        
+  transition: transform .3s; 
 }
 .card-img-top:hover{
 	transform: scale(1.1);
-	transition: transform .5s;
+	transition: transform .3s;
   margin: 0px auto;
 }
 
-.dev-news-section a {
+.dev-video-section a {
 	text-decoration: none;
 }
 
