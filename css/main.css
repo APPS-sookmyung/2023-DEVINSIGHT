@@ -5,6 +5,11 @@
 	--bs-nav-link-hover-color: #272823;
 }
 
+:lang(ko), :lang(en) {
+	word-break: keep-all;
+	word-wrap: break-word;
+}
+
 * {
 	font-family: "Spoqa Han Sans Neo", "sans-serif";
 }
@@ -200,10 +205,6 @@ input {
   margin: 0px auto;
 }
 
-.dev-video-section a {
-	text-decoration: none;
-}.dev-news-section a {
-	text-decoration: none;
-}.dev-seminar-section a {
+.dev-section a {
 	text-decoration: none;
 }
