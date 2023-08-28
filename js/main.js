@@ -30,22 +30,39 @@ function createCard({ name, imageUrl, linkUrl, title }) {
 }
 
 function main() {
-	fetch("../database/devVideoList.json")
-		.then((response) => response.json())
-		.then((devVideoList) => {
-			const devVideoSectionElement = document.querySelector(".dev-video-section");
+	const dataList = [
+		{
+			jsonPath: "../database/devVideoList.json",
+			sectionClassName: "dev-video-section",
+		},
+		{
+			jsonPath: "../database/devNewsList.json",
+			sectionClassName: "dev-news-section",
+		},
+		{
+			jsonPath: "../database/devSeminarList.json",
+			sectionClassName: "dev-seminar-section",
+		},
+	];
 
-			devVideoList.forEach(({ name, imageUrl, linkUrl, title }) => {
-				const devVideoCard = createCard({
-					name,
-					imageUrl,
-					linkUrl,
-					title,
+	dataList.forEach(({ jsonPath, sectionClassName }) => {
+		fetch(jsonPath)
+			.then((response) => response.json())
+			.then((devArticleList) => {
+				const devArticleSectionElement = document.querySelector("." + sectionClassName);
+
+				devArticleList.forEach(({ name, imageUrl, linkUrl, title }) => {
+					const devArticleCard = createCard({
+						name,
+						imageUrl,
+						linkUrl,
+						title,
+					});
+
+					devArticleSectionElement.appendChild(devArticleCard);
 				});
-
-				devVideoSectionElement.appendChild(devVideoCard);
 			});
-		});
+	});
 }
 
 main();
