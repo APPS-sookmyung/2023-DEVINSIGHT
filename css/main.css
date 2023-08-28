@@ -120,9 +120,10 @@ input {
 	align-items: center;
 	text-align: center;
 }
-.explain-box-video {
+
+/* 공통 스타일 */
+.explain-box-content {
 	color: #f9f9fa;
-	background-color: #7db8c3;
 	background-size: cover;
 	background-position: center;
 	height: 200px;
@@ -131,6 +132,17 @@ input {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+}
+/* 각 페이지별 추가 스타일 */
+.explain-box-video {
+	background-image: url('https://images.unsplash.com/photo-1689154345860-fa9dab2f92c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80');
+}
+.explain-box-news {
+	background-image: url('https://images.unsplash.com/photo-1689154345842-931405a1d776?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80');
+}
+.explain-box-seminar {
+	background-image: url('https://images.unsplash.com/photo-1689154345848-b3a37ee83c2a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80');
+	background-position: center bottom;
 }
 
 .row.explain-container {
@@ -148,6 +160,7 @@ input {
 
 .explain-content{
 	margin: 0;
+	font-size: 18px
 }
 
 /* 컨텐츠 카드 */
