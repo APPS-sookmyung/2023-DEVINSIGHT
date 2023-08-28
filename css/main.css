@@ -55,7 +55,7 @@ nav {
 	padding-left: 30px;
 }
 .nav-item a {
-	font-size: 18px;
+	font-size: 16px;
 }
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
@@ -159,6 +159,10 @@ input {
 
 }
 
+.explain-box {
+	padding: 0px 20px;
+}
+
 .explain-title {
 	margin-bottom: 20px;
 }
@@ -190,21 +194,29 @@ input {
 	margin: 0px 0px;
 }
 
+.card-title {
+	font-size: 16px;
+}
+
 .card-img-wrapper {
 	overflow: hidden;
+	aspect-ratio: 286/160;
 }
 
 .card-img-top {
+	height: 100%;
 	object-fit: cover;     
   transform: scale(1.0);        
   transition: transform .3s; 
 }
 .card-img-top:hover{
 	transform: scale(1.1);
-	transition: transform .3s;
-  margin: 0px auto;
 }
 
 .dev-section a {
 	text-decoration: none;
+}
+
+.card {
+	overflow: hidden;
 }
