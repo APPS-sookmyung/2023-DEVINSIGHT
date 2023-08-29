@@ -198,6 +198,13 @@ input {
 	font-size: 16px;
 }
 
+.card-date {
+	margin: 0px;
+	color: #7db8c3;
+
+
+}
+
 .card-img-wrapper {
 	overflow: hidden;
 	aspect-ratio: 286/160;
