@@ -1,4 +1,4 @@
-function createCard({ name, imageUrl, linkUrl, title }) {
+function createCard({ name, imageUrl, linkUrl, title, date }) {
 	const card = document.createElement("a");
 	card.className = "col";
 	card.href = linkUrl;
@@ -20,11 +20,16 @@ function createCard({ name, imageUrl, linkUrl, title }) {
 	cardTitle.className = "card-title";
 	cardTitle.textContent = `[${name}] ${title}`;
 
+	const cardDate = document.createElement("p");
+	cardDate.className = "card-date";
+	cardDate.textContent = date;
+
 	card.appendChild(cardInner);
 	cardInner.appendChild(cardImgwrapper);
 	cardImgwrapper.appendChild(cardImg);
 	cardInner.appendChild(cardBody);
 	cardBody.appendChild(cardTitle);
+	cardBody.appendChild(cardDate);
 
 	return card;
 }
@@ -51,12 +56,13 @@ function main() {
 			.then((devArticleList) => {
 				const devArticleSectionElement = document.querySelector("." + sectionClassName);
 
-				devArticleList.forEach(({ name, imageUrl, linkUrl, title }) => {
+				devArticleList.forEach(({ name, imageUrl, linkUrl, title, date }) => {
 					const devArticleCard = createCard({
 						name,
 						imageUrl,
 						linkUrl,
 						title,
+						date,
 					});
 
 					devArticleSectionElement.appendChild(devArticleCard);
