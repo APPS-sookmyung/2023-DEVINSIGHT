@@ -17,6 +17,10 @@ body {
 	margin-bottom: 100px;
 }
 
+a {
+	text-decoration: none !important;
+}
+
 h6 {
 	font-size: 18px;
 }
@@ -115,7 +119,7 @@ input {
 /* 사이트 소개 */
 .explain-box {
 	color: white;
-	background-image: url(/img/sebastian-svenson-LpbyDENbQQg-unsplash.jpg);
+	background-image: url(/img/image-main-background.jpg);
 	background-size: cover;
 	background-position: center;
 	height: 300px;

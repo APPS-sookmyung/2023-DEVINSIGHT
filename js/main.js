@@ -56,7 +56,7 @@ function main() {
 			.then((devArticleList) => {
 				const devArticleSectionElement = document.querySelector("." + sectionClassName);
 
-				devArticleList.forEach(({ name, imageUrl, linkUrl, title, date }) => {
+				devArticleList.slice(0, 3).forEach(({ name, imageUrl, linkUrl, title, date }) => {
 					const devArticleCard = createCard({
 						name,
 						imageUrl,
@@ -69,6 +69,25 @@ function main() {
 				});
 			});
 	});
+
+	// dev-news.html
+	fetch("../database/devNewsList.json")
+		.then((response) => response.json())
+		.then((devArticleList) => {
+			const devArticleAllSectionElement = document.querySelector(".all-section__card-list");
+
+			devArticleList.forEach(({ name, imageUrl, linkUrl, title, date }) => {
+				const devArticleCard = createCard({
+					name,
+					imageUrl,
+					linkUrl,
+					title,
+					date,
+				});
+
+				devArticleAllSectionElement.appendChild(devArticleCard);
+			});
+		});
 }
 
 main();
