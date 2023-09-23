@@ -198,6 +198,12 @@ input {
 	margin: 0px 0px;
 }
 
+.card-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
 .card-title {
 	font-size: 16px;
 }
@@ -205,8 +211,6 @@ input {
 .card-date {
 	margin: 0px;
 	color: #7db8c3;
-
-
 }
 
 .card-img-wrapper {
