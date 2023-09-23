@@ -70,11 +70,49 @@ function main() {
 			});
 	});
 
+	// dev-video.html
+	fetch("../database/devVideoList.json")
+		.then((response) => response.json())
+		.then((devArticleList) => {
+			const devArticleAllSectionElement = document.querySelector(".all-video-section__card-list");
+
+			devArticleList.forEach(({ name, imageUrl, linkUrl, title, date }) => {
+				const devArticleCard = createCard({
+					name,
+					imageUrl,
+					linkUrl,
+					title,
+					date,
+				});
+
+				devArticleAllSectionElement.appendChild(devArticleCard);
+			});
+		});
+
 	// dev-news.html
 	fetch("../database/devNewsList.json")
 		.then((response) => response.json())
 		.then((devArticleList) => {
-			const devArticleAllSectionElement = document.querySelector(".all-section__card-list");
+			const devArticleAllSectionElement = document.querySelector(".all-news-section__card-list");
+
+			devArticleList.forEach(({ name, imageUrl, linkUrl, title, date }) => {
+				const devArticleCard = createCard({
+					name,
+					imageUrl,
+					linkUrl,
+					title,
+					date,
+				});
+
+				devArticleAllSectionElement.appendChild(devArticleCard);
+			});
+		});
+
+	// dev-seminar.html
+	fetch("../database/devSeminarList.json")
+		.then((response) => response.json())
+		.then((devArticleList) => {
+			const devArticleAllSectionElement = document.querySelector(".all-seminar-section__card-list");
 
 			devArticleList.forEach(({ name, imageUrl, linkUrl, title, date }) => {
 				const devArticleCard = createCard({
