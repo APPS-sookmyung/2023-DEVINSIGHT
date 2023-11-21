@@ -1,0 +1,237 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+:root {
+	--bs-nav-link-color: #7db8c3;
+	--bs-nav-link-hover-color: #272823;
+}
+
+:lang(ko), :lang(en) {
+	word-break: keep-all;
+	word-wrap: break-word;
+}
+
+* {
+	font-family: "Spoqa Han Sans Neo", "sans-serif";
+}
+body {
+	margin-bottom: 100px;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+h6 {
+	font-size: 18px;
+}
+
+p {
+	font-size: 14px;
+}
+
+section {
+	margin: 50px 0px;
+}
+
+/* 네비게이션 바 */
+nav {
+	height: 70px;
+}
+
+.nav {
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+}
+.navbar-brand {
+	font-size: 28px; /* 로고사이즈 */
+	color: #272823;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+}
+.navbar {
+	font-weight: 500;
+}
+.navbar-nav {
+	padding-left: 30px;
+}
+.nav-item a {
+	font-size: 16px;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+	--bs-navbar-active-color:#272823
+	color: var(--bs-nav-link-hover-color)
+}
+
+.navbar-nav .nav-link:hover {
+	--bs-nav-link-hover-color: #272823;
+	color: var(--bs-nav-link-hover-color);
+}
+
+.nav-link {
+	--bs-nav-link-color: #7db8c3;
+	color: var(--bs-nav-link-color);
+}
+
+#navbarNavAltMarkup {
+	margin-left: 20px;
+}
+
+/* 검색 폼 */
+.search {
+	position: relative;
+	display: inline-block;
+}
+.search input {
+	width: 250px;
+	border: 1px solid #bbb;
+	border-radius: 8px;
+	padding: 10px 10px;
+	font-size: 14px;
+	padding-right: 30px; /* 여백 확보를 위해 오른쪽 패딩 추가 */
+}
+.search input:focus {
+	outline: none; /* 포커스시 기본 아웃라인 제거 */
+	border: 2px solid gray; /* 포커스시 테두리 색상 변경 */
+}
+.search img {
+	position: absolute;
+	width: 17px;
+	top: 50%;
+	right: 10px; /* 조정 가능한 값 */
+	transform: translateY(-50%);
+	cursor: pointer;
+	margin-right: 3px;
+}
+
+input {
+	width: 100%;
+	border: 1px solid #bbb;
+	border-radius: 8px;
+	padding: 10px 10px;
+	font-size: 14px;
+}
+
+/* 사이트 소개 */
+.explain-box {
+	color: white;
+	background-image: url(/img/image-main-background.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+/* 공통 스타일 */
+.explain-box-content {
+	color: #f9f9fa;
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+/* 각 페이지별 추가 스타일 */
+.explain-box-video {
+	background-image: url('https://images.unsplash.com/photo-1689154345860-fa9dab2f92c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80');
+}
+.explain-box-news {
+	background-image: url('https://images.unsplash.com/photo-1689154345842-931405a1d776?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80');
+}
+.explain-box-seminar {
+	background-image: url('https://images.unsplash.com/photo-1689154345848-b3a37ee83c2a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80');
+	background-position: center bottom;
+}
+
+.row.explain-container {
+	margin-top: 70px;
+}
+.row.explain-container a {
+	margin: 0px 12px;
+	padding: 0px;
+
+}
+
+.explain-box {
+	padding: 0px 20px;
+}
+
+.explain-title {
+	margin-bottom: 20px;
+}
+
+.explain-content{
+	margin: 0;
+	font-size: 18px
+}
+
+/* 컨텐츠 카드 */
+.main-content-header {
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10px 0px;
+}
+.main-content-header a {
+	color: #7db8c3;
+	font-size: 15px;
+	text-decoration: none;
+	font-weight: 800;
+}
+.main-content-header h3 {
+	margin: 0px;
+	font-weight: 600;
+	font-size: 25px;
+	padding: 10px;
+	margin: 0px 0px;
+}
+
+.card-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.card-title {
+	font-size: 16px;
+}
+
+.card-date {
+	margin: 0px;
+	color: #7db8c3;
+}
+
+.card-img-wrapper {
+	overflow: hidden;
+	aspect-ratio: 286/160;
+}
+
+.card-img-top {
+	height: 100%;
+	object-fit: cover;     
+  transform: scale(1.0);        
+  transition: transform .3s; 
+}
+.card-img-top:hover{
+	transform: scale(1.1);
+}
+
+.dev-section a {
+	text-decoration: none;
+}
+
+.card {
+	overflow: hidden;
+}

@@ -1,0 +1,44 @@
+[
+	{
+		"name": "NAVER D2",
+		"linkUrl": "https://youtu.be/lymUTJM8zog?feature=shared",
+		"imageUrl": "https://i.ytimg.com/vi/lymUTJM8zog/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBibc6jssDfM2lZPVQ1KA9FRkkT_w",
+		"title": "[Trailer] '나는 네이버 프런트엔드 개발자입니다' 출간 여정기",
+		"date": "2023. 8. 25"
+	},
+	{
+		"name": "우아한테크",
+		"linkUrl": "https://youtu.be/v63xqVXwSlo?si=HcKxUOJVxYUfiH12",
+		"imageUrl": "https://i.ytimg.com/vi/v63xqVXwSlo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDlEKtgBriSZQKdZmo-K_3g0QOGgQ",
+		"title": "[10분 테코톡] 로지의 AWS 사용팁",
+		"date": "2023. 8. 15"
+	},
+	{
+		"name": "우아한테크",
+		"linkUrl": "https://youtu.be/IRj9vKBy9CA?feature=shared",
+		"imageUrl": "https://i.ytimg.com/vi/IRj9vKBy9CA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDXWkQKQJcoRlyjCMsddHqMF2yP_Q",
+		"title": "[10분 테코톡] 에이든, 황펭의 프론트엔드 성능 측정",
+		"date": "2023. 8. 15"
+	},
+	{
+		"name": "NAVER D2",
+		"linkUrl": "맨땅에 UX 헤딩하기",
+		"imageUrl": "https://i.ytimg.com/vi/kY2awKngC_M/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAByFm2UfGGgUsw6Evcq6zkIN5oKw",
+		"title": "[Trailer] React 파이버 아키텍처 분석",
+		"date": "2023. 8. 10"
+	},
+	{
+		"name": "카카오",
+		"linkUrl": "https://youtu.be/4nS-IuTBKrQ?feature=shared",
+		"imageUrl": "https://i.ytimg.com/vi/4nS-IuTBKrQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD7vJkHgtgLpBBZTsRCWDrTChblGA",
+		"title": "애자일로 개발하면 빨리 끝난다던데? (김지훈, Jazz)",
+		"date": "2023. 8. 1"
+	},
+	{
+		"name": "당근테크",
+		"linkUrl": "https://youtu.be/3iLTBBC9ZX4?feature=shared",
+		"imageUrl": "https://i.ytimg.com/vi/3iLTBBC9ZX4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCYecSZQODFq2o9VLqBqBry0bT_EQ",
+		"title": "당근마켓 서비스를 모니터링하는 방법 | 당근 SRE 밋업 3회",
+		"date": "2023. 6. 27"
+	}
+]

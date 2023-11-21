@@ -1,0 +1,30 @@
+[
+	{
+		"name": "FEConf Korea",
+		"linkUrl": "https://2023.feconf.kr/",
+		"imageUrl": "https://2023.feconf.kr/images/preview/og.png",
+		"title": "FECONF 2023 (프론트엔드 개발 컨퍼런스)",
+		"date": "2023. 10. 21"
+	},
+	{
+		"name": "너디너리",
+		"linkUrl": "https://event-us.kr/neordinary/event/68943",
+		"imageUrl": "https://eventusstorage.blob.core.windows.net/evs/Image/neordinary/68943/ProjectInfo/Cover/c82d1a96a5f94771a01821be1c651bb0.png",
+		"title": "1st NE(O)RDINARY DemoDAY",
+		"date": "2023. 9. 8 - 9. 9"
+	},
+	{
+		"name": "카카오",
+		"linkUrl": "https://tech.kakao.com/2023/08/28/kakao-tech-meet-3/",
+		"imageUrl": "https://tech.kakao.com/storage/2023/08/KTM3main-624x352.png",
+		"title": "제3회 Kakao Tech Meet에 초대합니다!",
+		"date": "2023. 8. 28"
+	},
+	{
+		"name": "인프콘",
+		"linkUrl": "https://www.inflearn.com/conf/infcon-2023",
+		"imageUrl": "https://cdn.inflearn.com/infcon/infcon-2023/infcon-teaser-og.png",
+		"title": "INFCON 2023",
+		"date": "2023. 8. 15"
+	}
+]
