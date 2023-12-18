@@ -48,6 +48,10 @@ function main() {
 			jsonPath: "../database/devSeminarList.json",
 			sectionClassName: "dev-seminar-section",
 		},
+		{
+			jsonPath: "../database/devEventList.json",
+			sectionClassName: "dev-event-section",
+		},
 	];
 
 	dataList.forEach(({ jsonPath, sectionClassName }) => {
@@ -113,6 +117,25 @@ function main() {
 		.then((response) => response.json())
 		.then((devArticleList) => {
 			const devArticleAllSectionElement = document.querySelector(".all-seminar-section__card-list");
+
+			devArticleList.forEach(({ name, imageUrl, linkUrl, title, date }) => {
+				const devArticleCard = createCard({
+					name,
+					imageUrl,
+					linkUrl,
+					title,
+					date,
+				});
+
+				devArticleAllSectionElement.appendChild(devArticleCard);
+			});
+		});
+
+	// dev-event.html
+	fetch("../database/devEventList.json")
+		.then((response) => response.json())
+		.then((devArticleList) => {
+			const devArticleAllSectionElement = document.querySelector(".all-event-section__card-list");
 
 			devArticleList.forEach(({ name, imageUrl, linkUrl, title, date }) => {
 				const devArticleCard = createCard({
