@@ -122,7 +122,7 @@ input {
 	background-image: url(/img/image-main-background.jpg);
 	background-size: cover;
 	background-position: center;
-	height: 300px;
+	height: 260px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -135,7 +135,7 @@ input {
 	color: #f9f9fa;
 	background-size: cover;
 	background-position: center;
-	height: 200px;
+	height: 260px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -144,14 +144,16 @@ input {
 }
 /* 각 페이지별 추가 스타일 */
 .explain-box-video {
-	background-image: url('https://images.unsplash.com/photo-1689154345860-fa9dab2f92c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80');
+	background-image: url('https://images.unsplash.com/photo-1654027533986-9252ac069794?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
 }
 .explain-box-news {
-	background-image: url('https://images.unsplash.com/photo-1689154345842-931405a1d776?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80');
+	background-image: url('https://images.unsplash.com/photo-1653215377048-ad2c5cc39f75?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
 }
 .explain-box-seminar {
-	background-image: url('https://images.unsplash.com/photo-1689154345848-b3a37ee83c2a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80');
-	background-position: center bottom;
+	background-image: url('https://images.unsplash.com/photo-1664265694638-e858db3fd16b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+.explain-box-event {
+	background-image: url('https://images.unsplash.com/photo-1672217617440-1dd3e9417ce1?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
 }
 
 .row.explain-container {
@@ -173,7 +175,7 @@ input {
 
 .explain-content{
 	margin: 0;
-	font-size: 18px
+	font-size: 20px;
 }
 
 /* 컨텐츠 카드 */
