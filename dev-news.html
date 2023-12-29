@@ -4,7 +4,9 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>DevInsight - 개발 뉴스</title>
-
+		<link rel="stylesheet" href="css/main.css" />
+		<!-- 파비콘 -->
+		<link rel="icon" href="img/favicon-16x16.png" />
 		<!-- bootstrap css -->
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
@@ -12,8 +14,9 @@
 			integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
 			crossorigin="anonymous"
 		/>
-		<link rel="stylesheet" href="css/main.css" />
 	</head>
+
+	<script src="./js/main.js"></script>
 
 	<body>
 		<script
@@ -23,207 +26,54 @@
 		></script>
 
 		<!-- 네비게이션 바 -->
-		<div class="container-md">
-			<div class="navbar">
-				<nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
-					<div class="container-md">
-						<a class="navbar-brand" href="index.html">DevInsight</a>
-						<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-							<div class="navbar-nav">
-								<ul class="nav nav-underline">
-									<li class="nav-item">
-										<a class="nav-link" href="index.html">Home</a>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="dev-video.html">Dev영상</a>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link active" aria-current="page" href="dev-news.html">Dev소식</a>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="dev-seminar.html">Dev세미나</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-
-						<!-- 검색 폼 -->
-						<form class="search d-flex" role="search">
-							<input type="text" placeholder="검색어 입력" />
-							<img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png" />
-						</form>
+		<nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
+			<div class="container-md">
+				<a class="navbar-brand" href="index.html">DevInsight</a>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav">
+						<ul class="nav nav-underline">
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="dev-video.html">Dev영상</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="dev-news.html">Dev소식</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="dev-seminar.html">Dev세미나</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="dev-event.html">Dev행사</a>
+							</li>
+						</ul>
 					</div>
-				</nav>
-			</div>
-		</div>
+				</div>
 
-		<div class="row">
-			<!-- 사이트 소개 -->
+				<!-- 검색 폼 -->
+				<!-- <form class="search d-flex" role="search">
+					<input type="text" placeholder="검색어 입력" />
+					<img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png" />
+				</form> -->
+			</div>
+		</nav>
+
+		<!-- 사이트 소개 -->
+		<div class="row explain-container">
 			<div class="col">
-				<div class="explain-box-video">
-					<p class="explain-content" style="font-size: 18px">
-						훌륭한 개발자들의 기술 노하우와 경험이 녹아든 개발 이야기
-					</p>
+				<div class="explain-box-content explain-box-news">
+					<p class="explain-content">훌륭한 개발자들의 기술 노하우와 경험이 녹아든 개발 이야기</p>
 				</div>
 			</div>
 		</div>
 
 		<!-- 컨텐츠 카드 -->
-		<div class="container-md">
-			<div class="main-content">
-				<div class="main-content-section-1">
-					<div class="main-content-header">
-						<div class="main-tab">New</div>
-					</div>
-					<div class="row row-cols-1 row-cols-md-3 g-4">
-						<div class="col">
-							<div class="card h-100">
-								<img src="..." class="card-img-top" alt="..." />
-								<div class="card-body">
-									<h6 class="card-title">Card title</h6>
-									<p class="card-text">
-										This is a wider card with supporting text below as a natural lead-in to
-										additional content. This content is a little bit longer.
-									</p>
-								</div>
-								<div class="card-footer">
-									<small class="text-body-secondary">Last updated 3 mins ago</small>
-								</div>
-							</div>
-						</div>
-						<div class="col">
-							<div class="card h-100">
-								<img src="..." class="card-img-top" alt="..." />
-								<div class="card-body">
-									<h6 class="card-title">Card title</h6>
-									<p class="card-text">
-										This card has supporting text below as a natural lead-in to additional content.
-									</p>
-								</div>
-								<div class="card-footer">
-									<small class="text-body-secondary">Last updated 3 mins ago</small>
-								</div>
-							</div>
-						</div>
-						<div class="col">
-							<div class="card h-100">
-								<img src="..." class="card-img-top" alt="..." />
-								<div class="card-body">
-									<h6 class="card-title">Card title</h6>
-									<p class="card-text">
-										This is a wider card with supporting text below as a natural lead-in to
-										additional content. This card has even longer content than the first to show
-										that equal height action.
-									</p>
-								</div>
-								<div class="card-footer">
-									<small class="text-body-secondary">Last updated 3 mins ago</small>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+		<section class="container-md all-section">
+			<div class="main-content-header">
+				<h3 class="main-tab">전체보기</h3>
 			</div>
-
-			<div class="main-content">
-				<div class="main-content-section-1">
-					<div class="main-content-header">
-						<div class="main-tab">All</div>
-					</div>
-					<div class="row row-cols-1 row-cols-md-3 g-4">
-						<div class="col">
-							<div class="card h-100">
-								<img src="..." class="card-img-top" alt="..." />
-								<div class="card-body">
-									<h6 class="card-title">Card title</h6>
-									<p class="card-text">
-										This is a wider card with supporting text below as a natural lead-in to
-										additional content. This content is a little bit longer.
-									</p>
-								</div>
-								<div class="card-footer">
-									<small class="text-body-secondary">Last updated 3 mins ago</small>
-								</div>
-							</div>
-						</div>
-						<div class="col">
-							<div class="card h-100">
-								<img src="..." class="card-img-top" alt="..." />
-								<div class="card-body">
-									<h6 class="card-title">Card title</h6>
-									<p class="card-text">
-										This is a wider card with supporting text below as a natural lead-in to
-										additional content. This content is a little bit longer.
-									</p>
-								</div>
-								<div class="card-footer">
-									<small class="text-body-secondary">Last updated 3 mins ago</small>
-								</div>
-							</div>
-						</div>
-						<div class="col">
-							<div class="card h-100">
-								<img src="..." class="card-img-top" alt="..." />
-								<div class="card-body">
-									<h6 class="card-title">Card title</h6>
-									<p class="card-text">
-										This is a wider card with supporting text below as a natural lead-in to
-										additional content. This content is a little bit longer.
-									</p>
-								</div>
-								<div class="card-footer">
-									<small class="text-body-secondary">Last updated 3 mins ago</small>
-								</div>
-							</div>
-						</div>
-						<div class="col">
-							<div class="card h-100">
-								<img src="..." class="card-img-top" alt="..." />
-								<div class="card-body">
-									<h6 class="card-title">Card title</h6>
-									<p class="card-text">
-										This is a wider card with supporting text below as a natural lead-in to
-										additional content. This content is a little bit longer.
-									</p>
-								</div>
-								<div class="card-footer">
-									<small class="text-body-secondary">Last updated 3 mins ago</small>
-								</div>
-							</div>
-						</div>
-						<div class="col">
-							<div class="card h-100">
-								<img src="..." class="card-img-top" alt="..." />
-								<div class="card-body">
-									<h6 class="card-title">Card title</h6>
-									<p class="card-text">
-										This card has supporting text below as a natural lead-in to additional content.
-									</p>
-								</div>
-								<div class="card-footer">
-									<small class="text-body-secondary">Last updated 3 mins ago</small>
-								</div>
-							</div>
-						</div>
-						<div class="col">
-							<div class="card h-100">
-								<img src="..." class="card-img-top" alt="..." />
-								<div class="card-body">
-									<h6 class="card-title">Card title</h6>
-									<p class="card-text">
-										This is a wider card with supporting text below as a natural lead-in to
-										additional content. This card has even longer content than the first to show
-										that equal height action.
-									</p>
-								</div>
-								<div class="card-footer">
-									<small class="text-body-secondary">Last updated 3 mins ago</small>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+			<div class="row row-cols-1 row-cols-md-3 g-4 all-news-section__card-list"></div>
+		</section>
 	</body>
 </html>

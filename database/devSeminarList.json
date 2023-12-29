@@ -1,0 +1,37 @@
+[
+	{
+		"name": "FECONF 2023",
+		"linkUrl": "https://youtu.be/zYmSD9TZ-dM?si=4g9tIK2dB7g4RIUq",
+		"imageUrl": "https://i.ytimg.com/vi/zYmSD9TZ-dM/hqdefault.jpg?s…AFwAcABBg==&rs=AOn4CLAtMB16Aw57_cHaOihUbOuctr4_WQ",
+		"title": "FEConf 2023 [A1] React 바깥의 프론트엔드",
+		"date": "2023. 10. 21"
+	},
+	{
+		"name": "FECONF 2023",
+		"linkUrl": "https://youtu.be/Hd1JeePasuw?si=vRgSSzkFryfqAYGI",
+		"imageUrl": "https://i.ytimg.com/vi/Hd1JeePasuw/hqdefault.jpg?s…AFwAcABBg==&rs=AOn4CLBFlLDvWWqIu5n8Fg0PumXmRmm_3A",
+		"title": "FEConf 2023 [A2] use 훅이 바꿀 리액트 비동기 처리의 미래 맛보기",
+		"date": "2023. 10. 21"
+	},
+	{
+		"name": "FECONF 2023",
+		"linkUrl": "https://youtu.be/V2E4ft7vqao?si=r9x9bIURqVeUekZU",
+		"imageUrl": "https://i.ytimg.com/vi/V2E4ft7vqao/hqdefault.jpg?s…AFwAcABBg==&rs=AOn4CLBfw0lV1KZn6sT-2drYvqd9VtFPcA",
+		"title": "FEConf 2023 [A3] 몇 천 페이지의 유저 가이드를 새로 만들며",
+		"date": "2023. 10. 21"
+	},
+	{
+		"name": "FECONF 2023",
+		"linkUrl": "https://youtu.be/pEPOGDPDU-U?si=PjSzXx6Mi2tEV31d",
+		"imageUrl": "https://i.ytimg.com/vi/pEPOGDPDU-U/hqdefault.jpg?s…AFwAcABBg==&rs=AOn4CLDiZgfiNMp-Q0ObhbPa4bnm9JqPGA",
+		"title": "FEConf 2023 [A4] 이벤트 기반 웹뷰 프레임워크 설계와 플러그인 생태계 만들기",
+		"date": "2023. 10. 21"
+	},
+	{
+		"name": "FECONF 2023",
+		"linkUrl": "https://youtu.be/VnJLFwnuLV4?si=YffgUFeybtSAp7UG",
+		"imageUrl": "https://i.ytimg.com/vi/VnJLFwnuLV4/hqdefault.jpg?s…AFwAcABBg==&rs=AOn4CLDmLYXVQY8Fbq44l5XM_SpUFejnaw",
+		"title": "FEConf 2023 [A5] 대형 웹 애플리케이션 Micro Frontends 전환기",
+		"date": "2023. 10. 21"
+	}
+]

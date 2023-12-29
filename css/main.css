@@ -1,30 +1,36 @@
-@font-face {
-	font-family: "SeoulNamsanM";
-	src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SeoulNamsanM.woff")
-		format("woff");
-	font-weight: normal;
-	font-style: normal;
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+:root {
+	--bs-nav-link-color: #7db8c3;
+	--bs-nav-link-hover-color: #272823;
 }
 
+:lang(ko), :lang(en) {
+	word-break: keep-all;
+	word-wrap: break-word;
+}
+
+* {
+	font-family: "Spoqa Han Sans Neo", "sans-serif";
+}
 body {
-	font-family: "CustomFont";
 	margin-bottom: 100px;
 }
 
-h5 {
-	font-size: 18px;
-	padding: 10px 10px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	font-weight: bold;
+a {
+	text-decoration: none !important;
 }
 
 h6 {
-	font-size: 16px;
+	font-size: 18px;
 }
 
 p {
 	font-size: 14px;
+}
+
+section {
+	margin: 50px 0px;
 }
 
 /* 네비게이션 바 */
@@ -33,12 +39,6 @@ nav {
 }
 
 .nav {
-	--bs-nav-link-padding-x: 1rem;
-	--bs-nav-link-padding-y: 0.5rem;
-	--bs-nav-link-font-weight: ;
-	--bs-nav-link-color: #7db8c3;
-	--bs-nav-link-hover-color: #272823;
-	/* --bs-nav-link-disabled-color: var(--bs-secondary-color); */
 	display: flex;
 	flex-wrap: wrap;
 	padding-left: 0;
@@ -46,26 +46,39 @@ nav {
 	list-style: none;
 }
 .navbar-brand {
-	font-size: 24px; /* 로고사이즈 */
+	font-size: 28px; /* 로고사이즈 */
 	color: #272823;
+	font-weight: bold;
 	padding: 0;
 	margin: 0;
 }
 .navbar {
 	font-weight: 500;
 }
-.navbar-brand {
-	font-weight: bold;
-}
 .navbar-nav {
 	padding-left: 30px;
 }
 .nav-item a {
-	font-size: 18px;
+	font-size: 16px;
 }
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
-	color: #272823;
+	--bs-navbar-active-color:#272823
+	color: var(--bs-nav-link-hover-color)
+}
+
+.navbar-nav .nav-link:hover {
+	--bs-nav-link-hover-color: #272823;
+	color: var(--bs-nav-link-hover-color);
+}
+
+.nav-link {
+	--bs-nav-link-color: #7db8c3;
+	color: var(--bs-nav-link-color);
+}
+
+#navbarNavAltMarkup {
+	margin-left: 20px;
 }
 
 /* 검색 폼 */
@@ -106,84 +119,121 @@ input {
 /* 사이트 소개 */
 .explain-box {
 	color: white;
-	background-image: url(/img/sebastian-svenson-LpbyDENbQQg-unsplash.jpg);
+	background-image: url(/img/image-main-background.jpg);
 	background-size: cover;
 	background-position: center;
-	height: 300px;
+	height: 260px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	padding-top: 50px;
 }
-.explain-box-video {
+
+/* 공통 스타일 */
+.explain-box-content {
 	color: #f9f9fa;
-	background-color: #7db8c3;
 	background-size: cover;
 	background-position: center;
-	height: 200px;
+	height: 260px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	padding-top: 80px;
+}
+/* 각 페이지별 추가 스타일 */
+.explain-box-video {
+	background-image: url('https://images.unsplash.com/photo-1654027533986-9252ac069794?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+.explain-box-news {
+	background-image: url('https://images.unsplash.com/photo-1653215377048-ad2c5cc39f75?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+.explain-box-seminar {
+	background-image: url('https://images.unsplash.com/photo-1664265694638-e858db3fd16b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+.explain-box-event {
+	background-image: url('https://images.unsplash.com/photo-1672217617440-1dd3e9417ce1?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+.row.explain-container {
+	margin-top: 70px;
+}
+.row.explain-container a {
+	margin: 0px 12px;
+	padding: 0px;
+
+}
+
+.explain-box {
+	padding: 0px 20px;
+}
+
+.explain-title {
+	margin-bottom: 20px;
+}
+
+.explain-content{
+	margin: 0;
+	font-size: 20px;
 }
 
 /* 컨텐츠 카드 */
-/* .card h-100 {
-	display: block;
-	margin: 100px 0px 100px 0px;
-} */
-
 .main-content-header {
 	display: flex;
 	position: relative;
 	justify-content: space-between;
 	align-items: center;
+	margin: 10px 0px;
 }
-
 .main-content-header a {
-	color: gray;
-	font-size: 14px;
+	color: #7db8c3;
+	font-size: 15px;
 	text-decoration: none;
-	font-weight: 500;
+	font-weight: 800;
+}
+.main-content-header h3 {
+	margin: 0px;
+	font-weight: 600;
+	font-size: 25px;
+	padding: 10px;
+	margin: 0px 0px;
 }
 
-.main-content-section-1,
-.main-content-section-2,
-.main-content-section-3 {
-	margin-top: 50px;
-	margin-bottom: 50px;
-}
-
-/* new 버튼 */
-
-.main-tab {
-	border: 1px solid lightgray;
-	min-width: 120px;
-	min-height: 35px;
-	background-color: white;
-	border-radius: 1000px;
-	color: #272823;
-	font-weight: 700;
-	transition: 0.3s;
-	display: inline-block;
-	border-radius: 15px;
-	text-decoration: none;
-	margin: 15px 0px;
+.card-body {
 	display: flex;
-	align-items: center;
-	text-align: center;
-	justify-content: center;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
-/* 개발자 정보 */
-.developer-info {
-	background-color: #f9f9fa;
-	padding-top: 8px;
-	padding-bottom: 8px;
-	padding-left: 100px;
-	padding-right: 100px;
+.card-title {
+	font-size: 16px;
+}
+
+.card-date {
+	margin: 0px;
+	color: #7db8c3;
+}
+
+.card-img-wrapper {
+	overflow: hidden;
+	aspect-ratio: 286/160;
+}
+
+.card-img-top {
+	height: 100%;
+	object-fit: cover;     
+  transform: scale(1.0);        
+  transition: transform .3s; 
+}
+.card-img-top:hover{
+	transform: scale(1.1);
+}
+
+.dev-section a {
+	text-decoration: none;
+}
+
+.card {
+	overflow: hidden;
 }
