@@ -1,5 +1,77 @@
 [
 	{
+		"name": "우아한테크",
+		"linkUrl": "https://youtu.be/YtrIAqgSDp8?si=ABqj5YFwY7_dO5-G",
+		"imageUrl": "https://i.ytimg.com/vi/YtrIAqgSDp8/hqdefault.jpg?s…EIYAXABwAEG&rs=AOn4CLB9HMfBRcLJW1MnqHfm5jrbhdFE9A",
+		"title": "우아한형제들만을 위한 브라우저 확장 프로그램",
+		"date": "2023. 12. 22"
+	},
+	{
+		"name": "우아한테크",
+		"linkUrl": "https://youtu.be/nkXIpGjVxWU?si=lpqiMx4c--wOXta2",
+		"imageUrl": "https://i.ytimg.com/vi/nkXIpGjVxWU/hqdefault.jpg?s…EIYAXABwAEG&rs=AOn4CLAj3UhOi0h-ZFgWTUcY_aPt79vmDA",
+		"title": "프론트엔드 상태관리 실전 편 with React Query & Zustand",
+		"date": "2023. 12. 22"
+	},
+	{
+		"name": "우아한테크",
+		"linkUrl": "https://youtu.be/uiBCcmlJG4U?si=sY08rfZWdJgqhz-A",
+		"imageUrl": "https://i.ytimg.com/vi/uiBCcmlJG4U/hqdefault.jpg?s…EIYAXABwAEG&rs=AOn4CLDfufnsvm651KDjyzHw1t6XrcQucw",
+		"title": "프론트엔드 모킹 환경에 감칠맛 더하기",
+		"date": "2023. 12. 22"
+	},
+	{
+		"name": "우아한테크",
+		"linkUrl": "https://youtu.be/-jYSGaPAEHE?si=ASjyFL9wg4hSFQuv",
+		"imageUrl": "https://i.ytimg.com/vi/-jYSGaPAEHE/hqdefault.jpg?s…EIYAXABwAEG&rs=AOn4CLBYVmRMbCwtEcR0Nnkm_i0KknTXcA",
+		"title": "프론트엔드 개발의 미래, Module Federation의 적용",
+		"date": "2023. 12. 22"
+	},
+	{
+		"name": "우아한테크",
+		"linkUrl": "https://youtu.be/lbsGKOnXshw?si=sVwhyFbKckpclSdC",
+		"imageUrl": "https://i.ytimg.com/vi/lbsGKOnXshw/hqdefault.jpg?s…EIYAXABwAEG&rs=AOn4CLDQjmYrVsTnL7pQKO1g2aH5_fuSGw",
+		"title": "데이터 엔지니어가 만들어가는 레거시",
+		"date": "2023. 12. 22"
+	},
+	{
+		"name": "우아한테크",
+		"linkUrl": "https://youtu.be/VFwoEH50WpU?si=6oR4SXowO2IvsU9A",
+		"imageUrl": "https://i.ytimg.com/vi/VFwoEH50WpU/hqdefault.jpg?s…EIYAXABwAEG&rs=AOn4CLAd3WvIOFZJDsktWt_MHRJV7LTSBw",
+		"title": "GPT(a.k.a. 뚝딱이)와 함께 하는 서비스 만들기",
+		"date": "2023. 12. 22"
+	},
+	{
+		"name": "우아한테크",
+		"linkUrl": "https://youtu.be/x49PqlAQC3U?si=MyKlZmzkXlAPTleH",
+		"imageUrl": "https://i.ytimg.com/vi/x49PqlAQC3U/hqdefault.jpg?s…EIYAXABwAEG&rs=AOn4CLB8esc9CusvAjt1wCBTpXiBPso0fA",
+		"title": "추천시스템 성장 일지: 데이터 엔지니어 편",
+		"date": "2023. 12. 22"
+	},
+	{
+		"name": "우아한테크",
+		"linkUrl": "https://youtu.be/NzSbIUDjEDg?si=TiPteilVNrqmEQPj",
+		"imageUrl": "https://i.ytimg.com/vi/NzSbIUDjEDg/hqdefault.jpg?s…EIYAXABwAEG&rs=AOn4CLBh-XFPkJWbcWbC9G8Q8vWQMF7t_w",
+		"title": "낯선 서드파티와의 동행: 믿을 만한 배민커넥트 서버 구축하기",
+		"date": "2023. 12. 22"
+	},
+	{
+		"name": "우아한테크",
+		"linkUrl": "https://youtu.be/pRpryoQphXQ?si=UQ2VthvfLDGDXmZc",
+		"imageUrl": "https://i.ytimg.com/vi/NzSbIUDjEDg/hqdefault.jpg?s…EIYAXABwAEG&rs=AOn4CLBh-XFPkJWbcWbC9G8Q8vWQMF7t_w",
+		"title": "배민스토어에 최신 기술 한방에 때려넣기: Kotlin, Spring WebFlux, EDA",
+		"date": "2023. 12. 22"
+	},
+
+	{
+		"name": "우아한테크",
+		"linkUrl": "https://youtu.be/704qQs6KoUk?si=HKq0RiVNJIssCsbE",
+		"imageUrl": "https://i.ytimg.com/vi/704qQs6KoUk/hqdefault.jpg?s…EIYAXABwAEG&rs=AOn4CLAXXxXoysGFFuQh54F739nMpa5ZZg",
+		"title": "대규모 트랜잭션을 처리하는 배민 주문시스템 규모에 따른 진화",
+		"date": "2023. 12. 22"
+	},
+
+	{
 		"name": "FECONF 2023",
 		"linkUrl": "https://youtu.be/zYmSD9TZ-dM?si=4g9tIK2dB7g4RIUq",
 		"imageUrl": "https://i.ytimg.com/vi/zYmSD9TZ-dM/hqdefault.jpg?s…AFwAcABBg==&rs=AOn4CLAtMB16Aw57_cHaOihUbOuctr4_WQ",
@@ -33,5 +105,89 @@
 		"imageUrl": "https://i.ytimg.com/vi/VnJLFwnuLV4/hqdefault.jpg?s…AFwAcABBg==&rs=AOn4CLDmLYXVQY8Fbq44l5XM_SpUFejnaw",
 		"title": "FEConf 2023 [A5] 대형 웹 애플리케이션 Micro Frontends 전환기",
 		"date": "2023. 10. 21"
+	},
+	{
+		"name": "당근테크",
+		"linkUrl": "https://youtu.be/KRHTVQ_imvA?si=b1ptkJcgpdBYwpKk",
+		"imageUrl": "https://i.ytimg.com/vi/KRHTVQ_imvA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDiHM_q2UIO61SV746IobxaGpIdXg",
+		"title": "스웨덴어 공부하다 개발자가 됐습니다 | 2023 INFCON",
+		"date": "2023. 9. 6."
+	},
+	{
+		"name": "당근테크",
+		"linkUrl": "https://youtu.be/heA_-vpZsWo?si=-cy4NuG4Q5YB4tsE",
+		"imageUrl": "https://i.ytimg.com/vi/heA_-vpZsWo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBlP6aZg3j_i9H1ancllSW5QQeCFA",
+		"title": "한 달 동안 만든 서비스, 일 년 반 만에 전국 오픈하기 | 당근 SERVER 밋업 2회",
+		"date": "2023. 9. 6."
+	},
+	{
+		"name": "당근테크",
+		"linkUrl": "https://youtu.be/eIg_xJQw1GA?si=6j0MUL5hXMGSZiXs",
+		"imageUrl": "https://i.ytimg.com/vi/eIg_xJQw1GA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDbE7xfH0GD40f7yWvioK77irvY2A",
+		"title": "JavaScript 생태계를 이용해서 신사업 제품의 서버 개발하기 | 당근 SERVER 밋업 2회",
+		"date": "2023. 9. 6."
+	},
+	{
+		"name": "당근테크",
+		"linkUrl": "https://youtu.be/9Qcwb5rmemY?si=VXXVvRVjSPOFwPAI",
+		"imageUrl": "https://i.ytimg.com/vi/9Qcwb5rmemY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBpWYXKCPDm4fYTBmJecon42apAew",
+		"title": "당근마켓 CTO가 말하는 개발 문화와 성장 과정 | 2023 INFCON",
+		"date": "2023. 9. 6."
+	},
+	{
+		"name": "토스",
+		"linkUrl": "https://youtu.be/pZh7NBaa6aw?si=e37o-kyYUbE0WoKr",
+		"imageUrl": "https://i.ytimg.com/vi/pZh7NBaa6aw/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDHjEcM7IDAXJ1Vt7cX5ZkUVpTDwA",
+		"title": "SLASH 23 - 보안의 Next Level을 향해 토스의 Security Review",
+		"date": "2023. 6. 8"
+	},
+	{
+		"name": "토스",
+		"linkUrl": "https://youtu.be/2V2xYeqUsWw?si=85AmFEMDPMwz_0Bs",
+		"imageUrl": "https://i.ytimg.com/vi/2V2xYeqUsWw/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBsGEKpSbut9STTzt5AA9XIJQCorQ",
+		"title": "SLASH 23 - 금융사 최초의 Zero Trust 아키텍처 도입기",
+		"date": "2023. 6. 8"
+	},
+	{
+		"name": "토스",
+		"linkUrl": "https://youtu.be/MA7B9bJCwYk?si=XzWsl49oNiYB4iFE",
+		"imageUrl": "https://i.ytimg.com/vi/MA7B9bJCwYk/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDDkHjGoz6pYz_kTH1SEEK4GLRXpw",
+		"title": "SLASH 23 - 연결되면 비로소 보이는 것들",
+		"date": "2023. 6. 8"
+	},
+	{
+		"name": "토스",
+		"linkUrl": "https://youtu.be/zsLQQTuGiVw?si=oejjiPP31F7jfHQS",
+		"imageUrl": "https://i.ytimg.com/vi/zsLQQTuGiVw/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBRWCD3uNVFyaOx6a3k4Zfk9ssGXw",
+		"title": "SLASH 23 - 레고처럼 조립하는 토스 앱",
+		"date": "2023. 6. 8"
+	},
+	{
+		"name": "토스",
+		"linkUrl": "https://youtu.be/g9NdEXLS0u0?si=pZjYnFbCn6KhUBrd",
+		"imageUrl": "https://i.ytimg.com/vi/g9NdEXLS0u0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBmkDYHCU6jWxK4nWSjuFZBQbLNQQ",
+		"title": "SLASH 23 - 모든 순간을 안전하게, 토스의 서비스 보안 자동화 여정",
+		"date": "2023. 6. 8"
+	},
+	{
+		"name": "토스",
+		"linkUrl": "https://youtu.be/EuDOn7255gI?si=IhdRw-DuJFGpwRtW",
+		"imageUrl": "https://i.ytimg.com/vi/EuDOn7255gI/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDbX40MvpcZRu1Bg5Fa6Ko3td1hgA",
+		"title": "SLASH 23 - Server-driven UI로 다이나믹한 서비스 효율화하기",
+		"date": "2023. 6. 8"
+	},
+	{
+		"name": "토스",
+		"linkUrl": "https://youtu.be/amTJyIE1wO0?si=EdmcDzaHf-m6ct-4",
+		"imageUrl": "https://i.ytimg.com/vi/amTJyIE1wO0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBWF5RnflKB5vq57He36Q4bY3jMwg",
+		"title": "SLASH 23 - 은행 최초 코어뱅킹 MSA 전환기 (feat. 지금 이자 받기)",
+		"date": "2023. 6. 8"
+	},
+	{
+		"name": "토스",
+		"linkUrl": "https://youtu.be/SRLeXvA-o-U?si=jBHgODOoZAAlyake",
+		"imageUrl": "https://i.ytimg.com/vi/SRLeXvA-o-U/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAbMzvckncgBW9mIf3GbT757twwrA",
+		"title": "SLASH 23 - 유연하고 안전하게 배포 Pipeline 운영하기",
+		"date": "2023. 6. 8"
 	}
 ]
