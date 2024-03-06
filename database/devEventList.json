@@ -1,5 +1,33 @@
 [
 	{
+		"name": "구름",
+		"linkUrl": "https://blog.goorm.io/commit_15th/?utm_source=community&utm_medium=social&utm_content=zetawiki",
+		"imageUrl": "https://blog.goorm.io/wp-content/uploads/2023/12/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%9E%A5%EC%9D%B8-%EC%A0%95%EC%8B%A0-%EC%9A%B0%EB%A6%AC%EA%B0%80-%ED%95%A8%EA%BB%98-%EC%84%B1%EC%9E%A5%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95-1.png",
+		"title": "소프트웨어 장인 정신, 우리가 함께 성장하는 방법",
+		"date": "2023. 12. 11 "
+	},
+	{
+		"name": "구름",
+		"linkUrl": "https://blog.goorm.io/commit_14th/",
+		"imageUrl": "https://blog.goorm.io/wp-content/uploads/2023/09/%EC%9D%B4%EB%AF%B8%EC%A7%80-1.gif",
+		"title": "‘클린 코드’가 코드에 대한 책이 아닌 사실에 대해",
+		"date": "2023. 11. 13 "
+	},
+	{
+		"name": "우아한형제들",
+		"linkUrl": "https://woowacon.com/",
+		"imageUrl": "https://d2pjv5ojjif72j.cloudfront.net/thumbnail/%E1%84%8B%E1%85%A9%E1%84%91%E1%85%B3%E1%84%82%E1%85%B5%E1%86%BC%E1%84%82%E1%85%A9%E1%84%90%E1%85%B3.png",
+		"title": "우아한테크콘퍼런스 2023",
+		"date": "2023. 11. 15"
+	},
+	{
+		"name": "당근테크",
+		"linkUrl": "https://festa.io/events/4140",
+		"imageUrl": "https://cf.festa.io/img/2023-10-11/eea467b6-7ca1-4eed-8dbf-443eb1217780.png",
+		"title": "당근 SERVER 밋업 2회",
+		"date": "2023. 10. 28"
+	},
+	{
 		"name": "FEConf Korea",
 		"linkUrl": "https://2023.feconf.kr/",
 		"imageUrl": "https://2023.feconf.kr/images/preview/og.png",
