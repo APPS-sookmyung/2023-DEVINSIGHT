@@ -1,5 +1,169 @@
 [
 	{
+		"name": "개발바닥",
+		"linkUrl": "https://youtu.be/gRRBKmsVKOs?si=YhdNYSDn7tnbnBWf",
+		"imageUrl": "https://i.ytimg.com/an_webp/gRRBKmsVKOs/mqdefault_6s.webp?du=3000&sqp=CLmWya4G&rs=AOn4CLB9bTTqCWYRdEL_AApph0N-DOOEUA",
+		"title": "개발자 면접관이 중요하게 보는한 가지",
+		"date": "2024. 1. 29."
+	},
+	{
+		"name": "EO 이오",
+		"linkUrl": "https://youtu.be/xAxllziXPSo?si=iZV8zaMSJ1axkPYC",
+		"imageUrl": "https://i.ytimg.com/vi/xAxllziXPSo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAPQl6qezpAyFyQeAxsMd5OOyLxtg",
+		"title": "동양인? 워킹맘? 내가 실리콘밸리에서 일잘러로 살아남은 비결 | 돌싱글즈4 이소라",
+		"date": "2024. 1. 11."
+	},
+	{
+		"name": "EO 이오",
+		"linkUrl": "https://youtu.be/j6BVjqzgqls?si=BoT0iV3r6Blo3xSJ",
+		"imageUrl": "https://i.ytimg.com/an_webp/j6BVjqzgqls/mqdefault_6s.webp?du=3000&sqp=CKilya4G&rs=AOn4CLAtYzTW1VEdPmL8VEGsyTiWYNk6FQ",
+		"title": "인도가 낳고 삼성이 키운 엔지니어가 고국으로 돌아가 벌인 일 | 태그하이브 판카즈",
+		"date": "2023. 12. 27."
+	},
+	{
+		"name": "EO 이오",
+		"linkUrl": "https://youtu.be/FFoNTdupO8M?si=tUBCpSxuyFjeAh1T",
+		"imageUrl": "https://i.ytimg.com/vi/FFoNTdupO8M/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBaTdR_KyfJNmAvXUNvP8n7B8snKQ",
+		"title": "ChatGPT 디자이너가 되기까지 우연한 기회를 실력으로 바꾼 방법 | OpenAI Chester",
+		"date": "2023. 12. 5."
+	},
+
+	{
+		"name": "우아한테크",
+		"linkUrl": "https://youtu.be/QG6_DG5Tapw?si=OxpXSSI6HauNcDNZ",
+		"imageUrl": "https://i.ytimg.com/vi/QG6_DG5Tapw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCSVXjiyJ9JXJihRDducdUUcodUhg",
+		"title": "[10분 테코톡] 루쿠의 트리 자료구조",
+		"date": "2023. 11. 21."
+	},
+	{
+		"name": "우아한테크",
+		"linkUrl": "https://youtu.be/LQL8tXPaQCs?si=gICqzsNSI9mmoHQ7",
+		"imageUrl": "https://i.ytimg.com/vi/LQL8tXPaQCs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA_UF3wvyut7-BuOdcZjX7vXLBqwQ",
+		"title": "[10분 테코톡] 매튜의 선형 자료구조",
+		"date": "2023. 11. 21."
+	},
+	{
+		"name": "우아한테크",
+		"linkUrl": "https://youtu.be/DfNGidKhY6U?si=rSXmI3qe5A_FIlcx",
+		"imageUrl": "https://i.ytimg.com/vi/DfNGidKhY6U/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBVcpyMuPYTMVOG0nCjYAiIyilM2w",
+		"title": "[10분 테코톡] 조이,엔초의 DNS와 ARP",
+		"date": "2023. 11. 21."
+	},
+	{
+		"name": "EO 이오",
+		"linkUrl": "https://youtu.be/5BoMbO0yEIQ?si=ov6xyFsbdrdmoCLh",
+		"imageUrl": "https://i.ytimg.com/an_webp/5BoMbO0yEIQ/mqdefault_6s.webp?du=3000&sqp=CMCDya4G&rs=AOn4CLC0uVssB7IGAX9OpaAtzE7MamPMHw",
+		"title": "1인분만 하고 평균 이상을 바라면 안 되죠 | 스타트업 직장인 토크",
+		"date": "2023. 11. 17."
+	},
+	{
+		"name": "우아한테크",
+		"linkUrl": "https://youtu.be/jEiUyh_lnFI?si=x9T137dxryAS0GT3",
+		"imageUrl": "https://i.ytimg.com/an_webp/jEiUyh_lnFI/mqdefault_6s.webp?du=3000&sqp=CJTtyK4G&rs=AOn4CLC7ffRaroeKCxc7KzXMFjg3M2AdRQ",
+		"title": "[10분 테코톡] 노아이즈의 합성 컴포넌트 패턴",
+		"date": "2023. 11. 14."
+	},
+	{
+		"name": "우아한테크",
+		"linkUrl": "https://youtu.be/qXyv_tDhtOI?si=bfQ6ydQVm2D0J24G",
+		"imageUrl": "https://i.ytimg.com/vi/qXyv_tDhtOI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA_z2Nhgw40MTh1WmCQJT_abhDOIQ",
+		"title": "[10분 테코톡] 도담의 리액트 사이드 이펙트",
+		"date": "2023. 11. 7"
+	},
+	{
+		"name": "우아한테크",
+		"linkUrl": "https://youtu.be/NL9JQh5bbZ8?si=vkcXam5OMpYnFCBo",
+		"imageUrl": "https://i.ytimg.com/an_webp/NL9JQh5bbZ8/mqdefault_6s.webp?du=3000&sqp=CLyVya4G&rs=AOn4CLAqrJ_ItL95BixSCFfXl_4BqRonJQ",
+		"title": "[10분 테코톡] 오션의 뮤텍스와 세마포어",
+		"date": "2023. 10. 27."
+	},
+	{
+		"name": "우아한테크",
+		"linkUrl": "https://youtu.be/nQgwlyBrxDs?si=c6tVmBV5tZGHDsvK",
+		"imageUrl": "https://i.ytimg.com/vi/nQgwlyBrxDs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCK-QZgAvroA9Tuks9dAlybNJbpdQ",
+		"title": "[우아한테크세미나] 글 쓰는 우아한 개발자 - 2부 [우아한 타입스크립트 With 리액트]",
+		"date": "2023. 10. 26."
+	},
+	{
+		"name": "우아한테크",
+		"linkUrl": "https://youtu.be/3cTn53dtzJI?si=kPTukgBW-jgKDt5t",
+		"imageUrl": "https://i.ytimg.com/vi/3cTn53dtzJI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB8kjvoT_6r3k0eJu9eztvvbzXHiw",
+		"title": "[10분 테코톡] 베베, 허브의 성능 테스트",
+		"date": " 2023. 10. 24."
+	},
+	{
+		"name": "우아한테크",
+		"linkUrl": "https://youtu.be/rC3mfSj6G4I?si=ObHpimoWD4bMNwUP",
+		"imageUrl": "https://i.ytimg.com/vi/rC3mfSj6G4I/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDDVwQ_9m6UHwsv97DlaM-gvoQkTg",
+		"title": "[10분 테코톡] 반달의 안드로이드 앱 아키텍처 가이드",
+		"date": "2023. 10. 17."
+	},
+	{
+		"name": "우아한테크",
+		"linkUrl": "https://youtu.be/1yJEIc0ITbM?si=iadnkhK361MUS9_f",
+		"imageUrl": "https://i.ytimg.com/vi/1yJEIc0ITbM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBPPamev8LMvbJTnOcE4ceZ6kOFOg",
+		"title": "🪐우아한테크코스 2024 입학설명회🪐세션 2: 몰입 좀 해 본 선배들",
+		"date": "2023. 10. 16."
+	},
+	{
+		"name": "EO 이오",
+		"linkUrl": "https://youtu.be/MNyNRraMU8Y?si=OKsCyvYpOfMGn3Vd",
+		"imageUrl": "https://i.ytimg.com/vi/MNyNRraMU8Y/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLADo_W4UxyX775LrfHRADM0wMwSEA",
+		"title": "한국 개발자 최고 1타강사 김영한의 인생 [2부]",
+		"date": "2023. 10. 16."
+	},
+
+	{
+		"name": "우아한테크",
+		"linkUrl": "https://youtu.be/H3PW6L1LKDE?si=XbZiM1v1n52o1A0h",
+		"imageUrl": "https://i.ytimg.com/vi/1yJEIc0ITbM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBPPamev8LMvbJTnOcE4ceZ6kOFOg",
+		"title": "🪐우아한테크코스 2024 입학설명회🪐세션 1: 몰입하면 뭐가 좋아요?",
+		"date": "2023. 10. 11."
+	},
+	{
+		"name": "우아한테크",
+		"linkUrl": "https://youtu.be/QGybxLpGi1o?si=pjDG3K56rEZ59ONe",
+		"imageUrl": "https://i.ytimg.com/an_webp/QGybxLpGi1o/mqdefault_6s.webp?du=3000&sqp=CKClya4G&rs=AOn4CLBU89wfGPw-JFs6Om3947RGcc8Brg",
+		"title": "🪐우아한테크코스 2024 입학설명회🪐세션3: 몰.배우나요? 입.학하면?",
+		"date": "2023. 10. 11."
+	},
+	{
+		"name": "EO 이오",
+		"linkUrl": "https://youtu.be/_HTj5b59Em0?si=eb-9tx_OkH8e7Wam",
+		"imageUrl": "https://i.ytimg.com/vi/_HTj5b59Em0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAwWXA8KiohdxJrecoFNobz06LwQw",
+		"title": "한국 개발자 최고 1타강사 김영한의 인생 [1부]",
+		"date": "2023. 10. 10."
+	},
+	{
+		"name": "우아한테크",
+		"linkUrl": "https://youtu.be/1BoJZqxFYfQ?si=9Eut1jO-FO9bnt6x",
+		"imageUrl": "https://i.ytimg.com/vi/1BoJZqxFYfQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB3SiLJuJrUVgQfRfx28K8wNq5SQA",
+		"title": "[10분 테코톡] 코난의 자바스크립트 메모리 관리",
+		"date": "2023. 10. 3."
+	},
+
+	{
+		"name": "카카오테크",
+		"linkUrl": "https://youtu.be/U905BeDQ_BA?si=ZKCidRwuS6TFihBs",
+		"imageUrl": "https://i.ytimg.com/vi/U905BeDQ_BA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAHZmwXjJfy4btj2bhNH3iwlQ78dw",
+		"title": "폭증하는 카카오톡 트래픽에 대처하는 방법 (신성열 Tomo)",
+		"date": "2023. 9. 22."
+	},
+	{
+		"name": "카카오테크",
+		"linkUrl": "https://youtu.be/VSwWHHkdQI4?si=572JevIbSgLa7fLL",
+		"imageUrl": "https://i.ytimg.com/vi/VSwWHHkdQI4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDNexzvS0DqcowEgDLHjQQy0C2Zmw",
+		"title": "Spring Batch 애플리케이션 성능 향상을 위한 주요 팁 (김남윤, Yun)",
+		"date": "2023. 8. 1."
+	},
+	{
+		"name": "우아한테크",
+		"linkUrl": "https://youtu.be/_wdOoPBw4bg?si=-3BpdiHyIr7VT-xn",
+		"imageUrl": "https://i.ytimg.com/vi/_wdOoPBw4bg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAgLFfmKNqWluDDzMljfDHHg0LD-Q",
+		"title": "[10분 테코톡] 파워, 가비의 프로젝트에 도움이 될만한 aws 서비스 소개",
+		"date": " 2023. 9. 19."
+	},
+	{
 		"name": "NAVER D2",
 		"linkUrl": "https://youtu.be/lymUTJM8zog?feature=shared",
 		"imageUrl": "https://i.ytimg.com/vi/lymUTJM8zog/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBibc6jssDfM2lZPVQ1KA9FRkkT_w",
@@ -35,10 +199,76 @@
 		"date": "2023. 8. 1"
 	},
 	{
+		"name": "카카오테크",
+		"linkUrl": "https://youtu.be/ESwYltg47Yw?si=Z_2VWia-89qeneOF",
+		"imageUrl": "https://i.ytimg.com/vi/ESwYltg47Yw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDSqnn8CP3KHKIaqXyWPefQUBXL1Q",
+		"title": "카카오톡 Java App Server Refactoring 후기 (이상우, Soo)",
+		"date": "2023. 8. 1."
+	},
+
+	{
+		"name": "EO 이오",
+		"linkUrl": "https://youtu.be/uOwNhYCckLU?si=pSvUHFZVRc1c74iw",
+		"imageUrl": "https://i.ytimg.com/vi/uOwNhYCckLU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDlLzi31nE0sdEAmneMg6RK5IVuFw",
+		"title": "대학에 갈 이유가 없다는 걸 깨달은 고3 창업가의 논리 | 최성운의 사고실험 [김현준] 2부",
+		"date": "2023. 7. 6. "
+	},
+	{
+		"name": "EO 이오",
+		"linkUrl": "https://youtu.be/U3BJyWSSbro?si=zCwH4Pc4N6tV1LTe",
+		"imageUrl": "https://i.ytimg.com/an_webp/U3BJyWSSbro/mqdefault_6s.webp?du=3000&sqp=CKalya4G&rs=AOn4CLDsydZTWz7xGT0rRJQwh7SEcwdWOw",
+		"title": "고3이 기숙사에서 만든 앱으로 1500만 원을 번 과정 | 최성운의 사고실험 [김현준] 1부",
+		"date": "2023. 6. 28. "
+	},
+
+	{
 		"name": "당근테크",
 		"linkUrl": "https://youtu.be/3iLTBBC9ZX4?feature=shared",
 		"imageUrl": "https://i.ytimg.com/vi/3iLTBBC9ZX4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCYecSZQODFq2o9VLqBqBry0bT_EQ",
 		"title": "당근마켓 서비스를 모니터링하는 방법 | 당근 SRE 밋업 3회",
 		"date": "2023. 6. 27"
+	},
+	{
+		"name": "EO 이오",
+		"linkUrl": "https://youtu.be/p-VP3pT8GEg?si=KNaKqrWTsCBUPQLv",
+		"imageUrl": "https://i.ytimg.com/an_webp/p-VP3pT8GEg/mqdefault_6s.webp?du=3000&sqp=CJCrya4G&rs=AOn4CLACWz6ekaCQOMWxYuqySB0-Dc8A0Q",
+		"title": "시니어 개발자가 주니어에게 바라는 딱 한 가지 | 오늘의집 최진한 개발자",
+		"date": "2023. 6. 12."
+	},
+	{
+		"name": "드림코딩",
+		"linkUrl": "https://youtu.be/E4uhnFOwevA?si=M_raox_Iuaq3C9Oh",
+		"imageUrl": "https://i.ytimg.com/vi/E4uhnFOwevA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCD_iLfsGd6UMr_AX4zG_DeSmf_Sw",
+		"title": "서버리스 | 이젠 웹개발자가 꼭 알아야 하는 개념 🎩",
+		"date": "2023. 2. 14."
+	},
+	{
+		"name": "드림코딩",
+		"linkUrl": "https://i.ytimg.com/an_webp/E4uhnFOwevA/mqdefault_6s.webp?du=3000&sqp=CID3yK4G&rs=AOn4CLCzGWh51RuMPK5-F0vlX1kYUKs-SA",
+		"imageUrl": "https://i.ytimg.com/vi/umeqCopb96w/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDO3ycWR8aD9rFzCRCBFXy8wsfXEw",
+		"title": "코딩 빠르게 하는 꿀팁 및 설정 🍯 (자동 완성 기능, snippet)",
+		"date": "2023. 1. 31"
+	},
+	{
+		"name": "드림코딩",
+		"linkUrl": "https://youtu.be/d3PYoBwow9I?si=1T4r_-kjw3DzbkBx",
+		"imageUrl": "https://i.ytimg.com/an_webp/d3PYoBwow9I/mqdefault_6s.webp?du=3000&sqp=CNCPya4G&rs=AOn4CLBDKoi_J4Gj1QPBcRFfRdgNzEl8zQ",
+		"title": "온라인 개발 공부의 치명적인 함정 😱",
+		"date": "2023. 1. 17."
+	},
+	{
+		"name": "EO 이오",
+		"linkUrl": "https://youtu.be/3U0cbzmwSYc?si=Pz3MXHZxV-cergrr",
+		"imageUrl": "https://i.ytimg.com/vi/3U0cbzmwSYc/hqdefault.jpg?s…AFwAcABBg==&rs=AOn4CLCR1lL14HG3Ax0G8vZ13aF7q9papg",
+		"title": "이런 얘기를 하면 화내는 사람도 있죠 [한기용] 3부 최종화",
+		"date": "2022. 8. 8."
+	},
+
+	{
+		"name": "EO 이오",
+		"linkUrl": "https://youtu.be/nLL409se8sM?si=_nTHLgsZh0axZiD1",
+		"imageUrl": "https://i.ytimg.com/vi/nLL409se8sM/hqdefault.jpg?s…AFwAcABBg==&rs=AOn4CLDr37tq7Oy_7kLf912T7kiAq746zg",
+		"title": "27년차 실리콘밸리 개발자의 인생 이야기 [한기용] 1부",
+		"date": "2022. 7. 5."
 	}
 ]
