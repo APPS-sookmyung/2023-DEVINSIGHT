@@ -143,17 +143,39 @@ input {
 	text-align: center;
 }
 /* 각 페이지별 추가 스타일 */
-.explain-box-video {
-	background-image: url('https://images.unsplash.com/photo-1654027533986-9252ac069794?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+.explain-box-video {width: auto; 
+  height: 260px;
+  background-image: url('/img/background-1.jpg'); 
+  background-repeat: no-repeat; 
+  background-position: right;
+  background-size: contain; 
+  background-color: #b088fe;
 }
 .explain-box-news {
-	background-image: url('https://images.unsplash.com/photo-1653215377048-ad2c5cc39f75?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+	width: auto; 
+  height: 260px;
+  background-image: url('/img/background-2.jpg'); 
+  background-repeat: no-repeat; 
+  background-position: right;
+  background-size: contain; 
+  background-color: #76adfc;
 }
-.explain-box-seminar {
-	background-image: url('https://images.unsplash.com/photo-1664265694638-e858db3fd16b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+.explain-box-seminar {width: auto; 
+  height: 260px;
+  background-image: url('/img/background-3.jpg'); 
+  background-repeat: no-repeat; 
+  background-position: right;
+  background-size: contain; 
+  background-color: #e9b8ce;
 }
-.explain-box-event {
-	background-image: url('https://images.unsplash.com/photo-1672217617440-1dd3e9417ce1?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+.explain-box-event {width: auto; 
+  height: 260px;
+  background-image: url('/img/background-4.jpg'); 
+  background-repeat: no-repeat; 
+  background-position: right;
+  background-size: contain; 
+  background-color: #fee8cb;
+	color: #000;
 }
 
 .row.explain-container {
